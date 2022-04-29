@@ -50,4 +50,7 @@ body {
 .section-title {
     color:#212121;
 }
-
+/* Button */
+.button {
+    font-family: inherit;
+}
