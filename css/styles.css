@@ -13,7 +13,6 @@ body {
     list-style: none;
 }
 /* Site nav */
-
 .site-nav .link {
     color:#212121;
     font-weight: 500;
@@ -28,10 +27,16 @@ body {
 }
 .site-nav .link.current {
     color: #2196F3;
-}
+}   
 /* Contacts */
 .contact-site{
     color:#757575;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
 .contact-site:hover,
 .contact-site:focus {
@@ -41,10 +46,19 @@ body {
 .hero-title {
     background-color: #2F303A;
     color:#FFFFFF;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .button.primary {
     color: #FFFFFF;
     background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
 }
 /* Section */
 .section-title {
