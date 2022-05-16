@@ -3,6 +3,19 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
 }
+/* Logo */
+.logo-link {
+    color: #212121; 
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-accent{
+    color: #2196F3;
+}
 
 body {
     background-color: #FFFFFF;
@@ -19,6 +32,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
 }
 .site-nav .link:hover,
@@ -32,21 +46,23 @@ body {
 .contact-site{
     color:#757575;
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contact-site:hover,
 .contact-site:focus {
     color:#2196F3;
 }
+
 /* Hero */
 .hero-title {
     background-color: #2F303A;
     color:#FFFFFF;
-     font-weight: 900;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -58,13 +74,102 @@ letter-spacing: 0.02em;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+    text-decoration: none;
 }
 /* Section */
-.section-title title {
+.section .section-title {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section .title  {
     color:#212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+.examplework-title {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    }
+.examplework-text{
+    color: #757575;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
 /* Button */
 button {
     font-family: inherit;
+   
+}
+.filter {
+    background-color:#F5F4FA;
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em; 
+}
+.filter:hover,
+.filter:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Benefits */
+.benefits-list .text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+ 
+/* Team */
+.team {
+    background-color: #F5F4FA;
+}
+ .team-title {
+    color: #212121;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.position {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18   
+    
+}
+/* footer */
+.footer {
+    background-color:#2F303A;
+}
+.footer .contact {
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-decoration: none;
 }
